@@ -1,0 +1,17 @@
+${test_id},${username},${password},${expected_error}
+TC_001,standard_user,secret_sauce,
+TC_002,locked_out_user,secret_sauce,
+TC_003,problem_user,secret_sauce,
+TC_004,performance_glitch_user,secret_sauce,
+TC_005,error_user,secret_sauce,
+TC_006,visual_user,secret_sauce,
+TC_007,test1234,secret_sauce,Epic sadface: Username and password do not match any user in this service
+TC_008,standard_user,test124,Epic sadface: Username and password do not match any user in this service
+TC_009,locked_out_user,test125,Epic sadface: Username and password do not match any user in this service
+TC_010,problem_user,test126,Epic sadface: Username and password do not match any user in this service
+TC_011,performance_glitch_user,test127,Epic sadface: Username and password do not match any user in this service
+TC_012,error_user,test128,Epic sadface: Username and password do not match any user in this service
+TC_013,visual_user,test129,Epic sadface: Username and password do not match any user in this service
+TC_014,,secret_sauce,Epic sadface: Username is required
+TC_015,standard_user,,Epic sadface:  Password is required
+TC_016,STANDARD_USER,secret_sauce,Epic sadface: Username and password do not match any user in this service

@@ -1,0 +1,13 @@
+# Ignore Robot Framework results folder
+result/
+
+# Robot Framework logs and reports (กรณีที่มีหลุดมาอยู่ข้างนอกโฟลเดอร์)
+log.html
+report.html
+output.xml
+*.png
+
+# Python cache & Virtual Environment
+__pycache__/
+*.pyc
+.venv/
