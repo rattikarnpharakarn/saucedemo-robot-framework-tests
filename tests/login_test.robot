@@ -21,5 +21,3 @@ Login Scenario Template
     ELSE
         Error Message Should Be Displayed    ${expected_error}
     END
-
-    Sleep    1s
