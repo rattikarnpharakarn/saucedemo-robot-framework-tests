@@ -10,7 +10,7 @@ Library           SeleniumLibrary
 *** Variables ***
 ${SERVER}         https://www.saucedemo.com/
 ${BROWSER}        Chrome
-${DELAY}          0.5
+${DELAY}          0
 ${LOGIN URL}      ${SERVER}
 ${WELCOME_URL}    ${SERVER}inventory.html
 

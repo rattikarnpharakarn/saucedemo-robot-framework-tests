@@ -12,5 +12,5 @@ TC_010,performance_glitch_user,test127,Epic sadface: Username and password do no
 TC_011,error_user,test128,Epic sadface: Username and password do not match any user in this service
 TC_012,visual_user,test129,Epic sadface: Username and password do not match any user in this service
 TC_013,,secret_sauce,Epic sadface: Username is required
-TC_014,standard_user,,Epic sadface:  Password is required
+TC_014,standard_user,,Epic sadface: Password is required
 TC_015,STANDARD_USER,secret_sauce,Epic sadface: Username and password do not match any user in this service
