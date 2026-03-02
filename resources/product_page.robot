@@ -100,3 +100,4 @@ Clear Cart Data From Browser
     Execute Javascript    window.localStorage.removeItem('cart-contents');
     Reload Page
     Go To    ${INVENTORY_URL}
+    
